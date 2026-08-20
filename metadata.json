@@ -1,0 +1,7 @@
+{
+  "name": "GM Furniture",
+  "description": "Premium modern furniture showroom for modern living featuring curated living, bedroom, dining, and office collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

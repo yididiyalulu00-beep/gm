@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F5F2ED;
+    color: #1A1A1A;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-mono-accent {
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+/* Geometric Balance custom styling */
+.geometric-grid-bg {
+  background-image: linear-gradient(to right, rgba(26, 26, 26, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(26, 26, 26, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.geometric-border {
+  border: 1px solid #E2DDD5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EAE5DE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C2BAB0;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
